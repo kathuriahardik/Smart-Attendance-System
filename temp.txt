@@ -1,0 +1,5 @@
+cred = credentials.Certificate("ismjcomp-firebase-adminsdk-5wsg0-7342b6cb63.json")
+firebase_admin.initialize_app(cred,{
+    'databaseURL':"https://ismjcomp-default-rtdb.firebaseio.com/",
+    'storageBucket': "ismjcomp.appspot.com"
+})
